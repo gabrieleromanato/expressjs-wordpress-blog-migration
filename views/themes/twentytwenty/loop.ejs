@@ -1,0 +1,22 @@
+<article class="post">
+    <header class="entry-header">
+        <div class="entry-header-inner section-inner medium">
+            <h2 class="entry-title heading-size-1">
+                <a href="/<%= post.post_name %>"><%= post.post_title %></a>
+            </h2>
+            <figure class="featured-media">
+                <div class="featured-media-inner section-inner medium">
+                    <img src="/public/themes/twentytwenty/assets/images/2020-three-quarters-1.png" alt="">
+                </div>
+            </figure>
+            <div class="post-inner thin">
+                <div class="entry-content">
+                    <%= post.post_excerpt %>
+                </div>
+                <div class="wp-block-button is-style-outline">
+                    <a class="wp-block-button__link" href="/<%= post.post_name %>">Read More</a>
+                </div>
+            </div>
+        </div>
+    </header>
+</article>

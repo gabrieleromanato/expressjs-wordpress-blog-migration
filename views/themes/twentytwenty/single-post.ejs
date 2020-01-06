@@ -1,0 +1,27 @@
+<%- include('header') %>
+
+<main id="site-content" role="main">
+
+<article class="post">
+    <header class="entry-header">
+        <div class="entry-header-inner section-inner medium">
+            <h1 class="entry-title heading-size-1">
+                <%= post.post_title %>
+            </h1>
+            <figure class="featured-media">
+                <div class="featured-media-inner section-inner medium">
+                    <img src="/public/themes/twentytwenty/assets/images/2020-three-quarters-1.png" alt="">
+                </div>
+            </figure>
+            <div class="post-inner thin">
+                <div class="entry-content">
+                    <%- post.post_content %>
+                </div>
+            </div>
+        </div>
+    </header>
+</article>
+
+</main>
+
+<%- include('footer') %>
